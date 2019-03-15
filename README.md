@@ -28,7 +28,7 @@ This will open your project at http://localhost:3000
 
 **Paste in your components where you want them.**
 
-Look for "<Canvas>" and replace the demo component with your own.
+Look for "\<Canvas>" and replace the demo component with your own.
 
 
 **Save and take a look in your browser. That's it!**
