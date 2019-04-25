@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import Mason, { Canvas } from 'mason-library';
+
+import Mason, { Canvas } from '@mason-api/react-sdk';
 
 class App extends Component {
   componentDidMount() {
     Mason({
-      apiKey:'F2iH1kKvAY02h9aKMKEzOZ8tEb08jmiqVMoggpZQhOs=', // Replace this with your API key
-      projectId: '5c19c9430d278900033d9b70', // Replace this with your Project ID
+      apiKey:'YOUR_API_KEY_HERE',
+      projectId: 'YOUR_PROJECT-ID_HERE',
     });
   }
 
@@ -17,8 +18,10 @@ class App extends Component {
           <p class="h2">This project is a simple bare-bones application that's set up for you to deploy your Mason features into.</p>
           <p class="h2">This is just custom HTML. Mason features live right alongside any of your frontend custom code.</p>
         </div>
-        <div class="w-100 bg-dark flex items-center justify-center pa3 border-box">
-          <Canvas id="5c8a9b48b8c8d600032644ad" />
+        <div className="w-100 bg-black items-center justify-center pa3 border-box">
+          <Canvas id="COMPONENT_ONE_ID_HERE" />
+          <Canvas id="COMPONENT_TWO_ID_HERE" />
+          <Canvas id="COMPONENT_THREE_ID_HERE" />
         </div>
       </div>
     );
